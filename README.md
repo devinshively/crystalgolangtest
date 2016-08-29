@@ -1,30 +1,32 @@
 #RESULTS
 
-3000 = Crystal
-8080 = Golang
+##3000 = Crystal
+##8080 = Golang
 
-1 ~ ❯❯❯ wrk -c 10 -t 2 -d 30s http://localhost:3000/
-Running 30s test @ http://localhost:3000/
+###1 ~ ❯❯❯ wrk -c 10 -t 2 -d 30s http://localhost:3000/
+<pre>Running 30s test @ http://localhost:3000/
   2 threads and 10 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
-    Latency   293.55us  191.71us   8.21ms   89.62%
+    Latency   <b>293.55us</b>  191.71us   8.21ms   89.62%
     Req/Sec    17.68k     2.74k   23.55k    74.33%
   1055364 requests in 30.00s, 121.78MB read
-Requests/sec:  35178.02
+Requests/sec:  <b>35178.02</b>
 Transfer/sec:      4.06MB
+</pre>
 
-1 ~ ❯❯❯ wrk -c 10 -t 2 -d 30s http://localhost:3000/
-Running 30s test @ http://localhost:3000/
+###1 ~ ❯❯❯ wrk -c 10 -t 2 -d 30s http://localhost:3000/
+<pre>Running 30s test @ http://localhost:3000/
   2 threads and 10 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
-    Latency   288.75us  162.26us   6.34ms   85.18%
+    Latency   <b>288.75us</b>  162.26us   6.34ms   85.18%
     Req/Sec    17.74k     1.91k   24.41k    76.17%
   1059102 requests in 30.00s, 122.21MB read
-Requests/sec:  35303.96
+Requests/sec:  <b>35303.96</b>
 Transfer/sec:      4.07MB
+</pre>
 
-1 ~ ❯❯❯ wrk -c 10 -t 2 -d 30s http://localhost:8080/
-Running 30s test @ http://localhost:8080/
+###1 ~ ❯❯❯ wrk -c 10 -t 2 -d 30s http://localhost:8080/
+<pre>Running 30s test @ http://localhost:8080/
   2 threads and 10 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency   797.04us    6.80ms 153.54ms   99.20%
@@ -32,9 +34,10 @@ Running 30s test @ http://localhost:8080/
   1400360 requests in 30.01s, 172.28MB read
 Requests/sec:  46655.69
 Transfer/sec:      5.74MB
+</pre>
 
-1 ~ ❯❯❯ wrk -c 10 -t 2 -d 30s http://localhost:8080/
-Running 30s test @ http://localhost:8080/
+###1 ~ ❯❯❯ wrk -c 10 -t 2 -d 30s http://localhost:8080/
+<pre>Running 30s test @ http://localhost:8080/
   2 threads and 10 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency   310.32us    1.06ms  44.65ms   96.04%
@@ -42,9 +45,10 @@ Running 30s test @ http://localhost:8080/
   1428483 requests in 30.01s, 175.74MB read
 Requests/sec:  47607.10
 Transfer/sec:      5.86MB
+</pre>
 
-1 ~ ❯❯❯ wrk -c 10 -t 2 -d 30s http://localhost:8080/
-Running 30s test @ http://localhost:8080/
+###1 ~ ❯❯❯ wrk -c 10 -t 2 -d 30s http://localhost:8080/
+<pre>Running 30s test @ http://localhost:8080/
   2 threads and 10 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency   306.39us    1.03ms  43.81ms   95.98%
@@ -52,9 +56,10 @@ Running 30s test @ http://localhost:8080/
   1448942 requests in 30.10s, 178.25MB read
 Requests/sec:  48136.83
 Transfer/sec:      5.92MB
+</pre>
 
-1 ~ ❯❯❯ wrk -c 10 -t 2 -d 30s http://localhost:3000/
-Running 30s test @ http://localhost:3000/
+###1 ~ ❯❯❯ wrk -c 10 -t 2 -d 30s http://localhost:3000/
+<pre>Running 30s test @ http://localhost:3000/
   2 threads and 10 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency   266.61us  130.19us   5.29ms   83.05%
@@ -62,9 +67,10 @@ Running 30s test @ http://localhost:3000/
   1140390 requests in 30.10s, 131.59MB read
 Requests/sec:  37886.46
 Transfer/sec:      4.37MB
+</pre>
 
-1 ~ ❯❯❯ wrk -c 10 -t 2 -d 30s http://localhost:3000/
-Running 30s test @ http://localhost:3000/
+###1 ~ ❯❯❯ wrk -c 10 -t 2 -d 30s http://localhost:3000/
+<pre>Running 30s test @ http://localhost:3000/
   2 threads and 10 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency   279.35us  141.63us   5.50ms   82.41%
@@ -72,9 +78,10 @@ Running 30s test @ http://localhost:3000/
   1086405 requests in 30.00s, 125.37MB read
 Requests/sec:  36213.35
 Transfer/sec:      4.18MB
+</pre>
 
-1 ~ ❯❯❯ wrk -c 10 -t 2 -d 30s http://localhost:3000/34lkaj
-Running 30s test @ http://localhost:3000/34lkaj
+###1 ~ ❯❯❯ wrk -c 10 -t 2 -d 30s http://localhost:3000/34lkaj
+<pre>Running 30s test @ http://localhost:3000/34lkaj
   2 threads and 10 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency   322.54us  153.55us   5.86ms   86.00%
@@ -82,19 +89,21 @@ Running 30s test @ http://localhost:3000/34lkaj
   945822 requests in 30.10s, 130.79MB read
 Requests/sec:  31423.03
 Transfer/sec:      4.35MB
+</pre>
 
-1 ~ ❯❯❯ wrk -c 10 -t 2 -d 30s http://localhost:3000/34lkaj
-Running 30s test @ http://localhost:3000/34lkaj
+###1 ~ ❯❯❯ wrk -c 10 -t 2 -d 30s http://localhost:3000/34lkaj
+<pre>Running 30s test @ http://localhost:3000/34lkaj
   2 threads and 10 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
-    Latency   323.76us  150.99us   5.33ms   85.60%
+    Latency   <b>323.76us</b>  150.99us   5.33ms   85.60%
     Req/Sec    15.72k     1.38k   19.19k    64.29%
   941485 requests in 30.10s, 130.19MB read
 Requests/sec:  31278.59
 Transfer/sec:      4.33MB
+</pre>
 
-1 ~ ❯❯❯ wrk -c 10 -t 2 -d 30s http://localhost:8080/34lkaj
-Running 30s test @ http://localhost:8080/34lkaj
+###1 ~ ❯❯❯ wrk -c 10 -t 2 -d 30s http://localhost:8080/34lkaj
+<pre>Running 30s test @ http://localhost:8080/34lkaj
   2 threads and 10 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency   383.68us    1.84ms  54.03ms   97.59%
@@ -102,9 +111,10 @@ Running 30s test @ http://localhost:8080/34lkaj
   1343548 requests in 30.01s, 196.04MB read
 Requests/sec:  44772.24
 Transfer/sec:      6.53MB
+</pre>
 
-1 ~ ❯❯❯ wrk -c 10 -t 2 -d 30s http://localhost:8080/34lkaj
-Running 30s test @ http://localhost:8080/34lkaj
+###1 ~ ❯❯❯ wrk -c 10 -t 2 -d 30s http://localhost:8080/34lkaj
+<pre>Running 30s test @ http://localhost:8080/34lkaj
   2 threads and 10 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency   685.29us    6.38ms 153.90ms   99.50%
@@ -112,9 +122,10 @@ Running 30s test @ http://localhost:8080/34lkaj
   1347455 requests in 30.01s, 196.61MB read
 Requests/sec:  44904.75
 Transfer/sec:      6.55MB
+</pre>
 
-1 ~ ❯❯❯ wrk -c 100 -t 2 -d 15s http://localhost:8080/34lkaj
-Running 15s test @ http://localhost:8080/34lkaj
+###1 ~ ❯❯❯ wrk -c 100 -t 2 -d 15s http://localhost:8080/34lkaj
+<pre>Running 15s test @ http://localhost:8080/34lkaj
   2 threads and 100 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency     2.33ms    4.95ms 156.97ms   97.58%
@@ -122,8 +133,9 @@ Running 15s test @ http://localhost:8080/34lkaj
   736816 requests in 15.01s, 107.51MB read
 Requests/sec:  49090.21
 Transfer/sec:      7.16MB
+</pre>
 
-1 ~ ❯❯❯ wrk -c 100 -t 2 -d 15s http://localhost:8080/34lkaj
+###1 ~ ❯❯❯ wrk -c 100 -t 2 -d 15s http://localhost:8080/34lkaj
 Running 15s test @ http://localhost:8080/34lkaj
   2 threads and 100 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
@@ -132,9 +144,10 @@ Running 15s test @ http://localhost:8080/34lkaj
   746124 requests in 15.01s, 108.87MB read
 Requests/sec:  49705.88
 Transfer/sec:      7.25MB
+</pre>
 
-1 ~ ❯❯❯ wrk -c 100 -t 2 -d 15s http://localhost:3000/34lkaj
-Running 15s test @ http://localhost:3000/34lkaj
+###1 ~ ❯❯❯ wrk -c 100 -t 2 -d 15s http://localhost:3000/34lkaj
+<pre>Running 15s test @ http://localhost:3000/34lkaj
   2 threads and 100 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency     5.01ms   17.93ms 423.77ms   98.90%
@@ -142,9 +155,10 @@ Running 15s test @ http://localhost:3000/34lkaj
   429697 requests in 15.10s, 59.42MB read
 Requests/sec:  28454.66
 Transfer/sec:      3.93MB
+</pre>
 
-1 ~ ❯❯❯ wrk -c 100 -t 2 -d 15s http://localhost:3000/34lkaj
-Running 15s test @ http://localhost:3000/34lkaj
+###1 ~ ❯❯❯ wrk -c 100 -t 2 -d 15s http://localhost:3000/34lkaj
+<pre>Running 15s test @ http://localhost:3000/34lkaj
   2 threads and 100 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency     3.63ms  705.25us   9.18ms   71.79%
@@ -152,3 +166,4 @@ Running 15s test @ http://localhost:3000/34lkaj
   415831 requests in 15.10s, 57.50MB read
 Requests/sec:  27533.91
 Transfer/sec:      3.81MB
+</pre>
