@@ -1,5 +1,7 @@
 #RESULTS
 
+This is a merge test
+
 ##3000 = Crystal
 ##8080 = Golang
 
